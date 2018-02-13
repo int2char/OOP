@@ -3,7 +3,7 @@ rm -f ./data/*.txt
 nodes=(50 100 200 300 500 800 1000 2000)
 types=(0 2)
 graphtype=("ER" "NI" "BA")
-powers=(1)
+powers=(1 2 3 4 5 6) 
 capacitys=(150 200 250)
 declare -i edge task biao 
 for node in ${nodes[@]}
